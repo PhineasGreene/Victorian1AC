@@ -12,15 +12,29 @@
 \renewcommand{\LettrineFontHook}{\fontspec{Cinzel Decorative}}
 \renewcommand{\LettrineTextFont}{\fontspec{Cinzel Decorative}}
 
-\usepackage[margin=1.2in]{geometry}
-\addtolength{\topmargin}{-.5in}
-\addtolength{\textheight}{2in}
+\usepackage[a4paper, total={6in, 10in}]{geometry}
+\addtolength{\topmargin}{0.25in}
 
 \usepackage{titlesec}
-\titleformat{\section}{\huge\bfseries}{}{-0.5em}{}
-\titleformat{\subsection}{\large\bfseries}{}{0.5em}{}
+\titleformat{\section}{\huge\bfseries}{ \pgfornament[height=0.6cm,ydelta=-0.25cm]{15}}{0.05em}{}
+\titleformat{\subsection}{\large\bfseries}{\pgfornament[height=0.5cm,ydelta=-0.13cm]{17}}{0.4em}{}
+\titleformat{\subsubsection}[runin]{\bfseries}{}{0.22em}{}[{\pgfornament[height=0.4cm,ydelta=-0.1cm]{14}}]
+
+\usepackage[bottom]{footmisc}
 
 \usepackage{pgfornament} 
+
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{fancyhdr}
+\usepackage{lastpage}
+
+\pagestyle{fancy}
+\fancyhf{}
+
+\rfoot{Page \thepage \hspace{1pt} of \pageref{LastPage}}
+
+\renewcommand{\headrule}{}
 
 \begin{document}
 	\begin{center}
@@ -86,5 +100,53 @@
 	\paragraph{}
 	``From 2010 to 2013 the median area of drilling impoundments more than tripled, and the average area (which also includes small fluid reserve pits located right on the well pad) more than doubled. As of 2013, the total impoundment surface area measures nearly four million square meters, scattered across the Commonwealth.''\newline
 	\textbf{MPX: As we saw from this evidence, these open pits are not diminishing but actually growing causing devastating effects to health and environment. Just as a clarification this piece is just about Pennsylvania.  To put that number in perspective for every 29,000 square miles in Pennsylvania 1 is covered in this toxic waste.  This leads to our harms or the reasons you should vote for our plan:}
-
+	
+	\section{Harm 1: Health}
+	\paragraph{}
+	The open storage of fracking wastewater has significant harms to human health which we will see in the following subpoints:
+	\pagebreak
+	
+	\subsection{Subpoint 1: Drinking Water}
+	\textit{\ul{Andrew Grinberg, Clean Water Action/Clean Water Fund, November 2014}\footnote{Andrew began working with Clean Water in 2006 and in 2016 joined the national program team in Washington DC. From 2011 through 2015, he managed the California oil and gas program, leading statewide efforts to rein in dirty oil and gas activities including disposal of wastewater. https://assets.documentcloud.org/documents/1362974/ca-oil-and-gas-pit-report.pdf}}
+	\paragraph{}
+	``After learning about an unlined pit site, \ul{Clean Water Action began to investigate one pair of pits located near McKittrick in Kern County. By reviewing public documents, and using citizen collected air quality samples, the investigation found documentation of a plume of wastewater containing heavy metals such as boron, high salinity, and other constituents of concern, that has migrated towards high quality, useable groundwater resources. The Central Valley Regional Water Quality Control Board (CVRWQCB or Central Valley Board) has required groundwater testing near the site since 2004. The test results — all public documents — indicate that a plume of wastewater, matching the characteristics of the wastewater in the pits, extends close to a mile to the northeast of the pits. It extends towards the Kern River Flood Channel, the California Aqueduct and high-quality groundwater used for significant agricultural activity.} The public documents also indicate a complete lack of enforcement of regulations by the Central Valley Board, which has allowed discharge into these pits since the 1950s, despite its own records indicating industry non-compliance with state and regional water quality laws.''\newline
+	\textbf{MPX: As we see from this evidence, this wastewater is seeping into the ground causing contamination of chemicals into drinking water.}
+	
+	\subsection{Subpoint 2: Air Quality}
+	\textit{\ul{Andrew Grinberg, Clean Water Action/Clean Water Fund, November 2014}}
+	\paragraph{}
+	``Air quality sampling (analyzed by an independent lab) at the pits identified health-threatening and climate-changing pollution. Samples showed the presence of 24 volatile organic compounds (VOC’s), and methane, as well as Benzene and 2-Hexanone, above the Long Term Effects Screening Levels.* After receiving a complaint of noxious odors at the pits, the San Joaquin Valley Air Pollution Control District (the District) responded with a claim of “no threat,” based on self-reported sampling by the operator of the pits. The District did not conduct independent air or water sampling.''\newline
+	\textbf{MPX: Water contamination is not the only issue, as we can see from this piece of evidence, the air is being polluted as well.}
+	
+	\paragraph{}
+	Now let’s see the next harm which shows us that the current system is failing the Affirmative Team’s goal:
+	
+	\section{Harm 2: No Responsible Protection}
+	\textit{\ul{Alexandra Zissu, Natural Resources Defense Council, January 27, 2016}\footnote{Alexandra Zissu has written for The New York Times, New York magazine, Health, and Bon Appétit. https://www.nrdc.org/stories/how-tackle-fracking-your-community}}
+	\paragraph{}
+	``\ul{Fracking enjoys loopholes from a number of our bedrock environmental laws,'' Raichel notes. For example, oil and gas waste is not considered a hazardous waste under the Resource Conservation and Recovery Act. This can make it difficult for concerned citizens to push the needle on a federal level, but it’s still important to call your elected representatives and urge them to close these loopholes.} ``Although sweeping change might be slow in coming, staying vocal keeps the pressure on elected officials and industry,'' Raichel says. ``As we’ve seen before, if there is enough of a groundswell, it will make a difference.''\newline
+	\textbf{MPX: As we can see, there is no action on the government’s part to make a move in the right direction. We want to take a step in the right direction by putting forward our plan:}
+	
+	\section{Plan:}
+	\subsubsection{Mandate }
+	Designate Fracking Wastewater A.K.A Flowback as Solid waste under Subtitle D of the RCRA
+	\subsubsection{Agency and Enforcement }
+	The EPA, DOE, Congress and the President.
+	\subsubsection{Funding }
+	No funding is needed as this plan is purely legislative. Any unforeseen costs will come from the EPA’s budget.
+	\subsubsection{Timeline }
+	The mandate will be implemented upon an affirmative ballot. Companies will be given 36 months to update their waste storage systems.
+	
+	\paragraph{}
+	With this simple plan in place, let us see our main advantage:
+	
+	\section{Advantage: Responsible Protection}
+	\textit{\ul{Environmental Integrity Project, December 29, 201}\footnote{The Environmental Integrity Project is a nonpartisan, nonprofit watchdog organization that advocates for effective enforcement of environmental laws. It is comprised of former EPA enforcement attorneys, public interest lawyers, analysts, investigators, and community organizers. https://www.environmentalintegrity.org/news/court-approves-settlement-for-epa-rules-on-drilling-and-fracking-waste/}}
+	\paragraph{}
+	``This consent decree is a step in the right direction toward fulfilling EPA’s duty to the public,'' said Adam Kron, senior attorney at the Environmental Integrity Project. ``EPA has known since 1988 that its rules for oil and gas wastes aren’t up to par, and the fracking boom has made them even more outdated. Our communities deserve the best possible protection for their health and the environment.''\newline
+	\textbf{MPX: What Mr. Kron is saying is that the EPA is not responsibly protecting our citizens and the environment. And they have known this for a long time. It’s time for a change. We can see that there is little regulation in regards to the storage of wastewater from fracking, which affects people’s health and the environment. If you vote affirmative, you are helping people all over the states that have been harmed and will be if our plan is not passed. We need to have action. Help the Government and the Affirmative Team. responsibly protect our citizens. Thank you and I now stand open for cross examination.}
+	
+	\begin{center}
+	\pgfornament[anchor=south,height=-2cm]{71}
+	\end{center}
 \end{document}
